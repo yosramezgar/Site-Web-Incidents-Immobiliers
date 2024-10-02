@@ -1,0 +1,89 @@
+/* habitants.css */
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #7579ff;
+    color: #fff;
+    text-align: left;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn-group button {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-group button:hover {
+    opacity: 0.8;
+}
+
+.btn-group button:first-child {
+    margin-right: 10px; /* Ajout de la marge à droite */
+}
+
+.btn-custom-success {
+    background-color: #9152f8;
+    border-color: #9152f8;
+}
+
+.btn-custom-success:hover {
+    background-color: #7579ff;
+    border-color: #7579ff;
+}
+
+.btn-custom-primary {
+    background-color: #7579ff;
+    border-color: #7579ff;
+}
+
+.btn-custom-primary:hover {
+    background-color: #7579ff;
+    border-color: #7579ff;
+}
+
+.btn-custom-danger {
+    background-color: #b224ef;
+    border-color: #b224ef;
+}
+
+.btn-custom-danger:hover {
+    background-color: #b224ef;
+    border-color: #b224ef;
+}
